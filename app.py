@@ -2,6 +2,8 @@ from flask import Flask, request, jsonify
 import pandas as pd
 import openai
 import json
+from flask_cors import CORS
+
 
 # Đọc và làm sạch dữ liệu
 df = pd.read_csv("JobsDataset.csv")
@@ -10,10 +12,12 @@ df.dropna(subset=['Query', 'Job Title', 'Description'], inplace=True)
 
 # Tạo Flask app
 app = Flask(__name__)
+CORS(app, resources={r"/suggest": {"origins": "*"}})
+
 
 # Khởi tạo OpenAI client
 string_key = ""
-client = openai.OpenAI(api_key=string_key)
+client = openai.OpenAI(api_key="")
 
 # API gợi ý nghề nghiệp
 @app.route("/suggest", methods=["POST"])
@@ -77,7 +81,7 @@ def suggest():
         Dưới đây là mô tả các công việc IT thực tế:
         {context}
         Người dùng nhập: "{user_input}"
-        Dựa vào mô tả các công việc trên, hãy gợi ý công việc phù hợp hoặc công nghệ cần học.
+        Dựa vào phần mô tả các công việc ở trên, hãy gợi ý công việc phù hợp hoặc công nghệ cần học, có thể giới thiệu nhiều công việc nếu phù hợp.
         Trả lời ngắn gọn, rõ ràng bằng tiếng Việt. Không xuống dòng 2 lần liên tiếp trong phần trả lời, xuống dòng bình thường thì được. Thêm markdown đơn giản cho trả lời.
         """
 
