@@ -12,7 +12,7 @@ df.dropna(subset=['Query', 'Job Title', 'Description'], inplace=True)
 app = Flask(__name__)
 
 # Khởi tạo OpenAI client
-string_key = "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"
+string_key = ""
 client = openai.OpenAI(api_key=string_key)
 
 # API gợi ý nghề nghiệp
