@@ -1,0 +1,68 @@
+﻿
+
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="top" style=" display: flex; flex-direction: column; height: 100vh;">
+
+        <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+                    <div class="mx-auto">
+                        <h1 class="text-white text-center">IT CAREER NAVIGATOR</h1>
+                    </div>
+
+        </section>
+
+        <section class="featured-section">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-5 col-12 mb-4 mb-lg-0" onclick="location.href='@Url.Action("SuggestCareer", "Home")'">
+                        <div class="custom-block bg-white shadow-lg">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5 class="mb-2">Skill-Based Career Suggestions</h5>
+
+                                        <p class="mb-0">Not sure which job suits you? Tell us what you're good at, and we'll suggest career paths that fit your talents.</p>
+                                        <img src="~/Content/images/undraw_Graduation_re_gthn.png" class="custom-block-image img-fluid" alt="">
+
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 col-12"  onclick="location.href='@Url.Action("SuggestTech_Skills", "Home")'">
+                        <div class="custom-block custom-block-overlay">
+                            <div class="d-flex flex-column h-100">
+                                <img src="~/Content/images/businesswoman-using-tablet-analysis.jpg" class="custom-block-image img-fluid" alt="">
+
+                                <div class="custom-block-overlay-text d-flex">
+                                    <div>
+                                        <h5 class="text-white mb-2">Tech & Skills for Careers Suggestion</h5>
+
+                                        <p class="text-white">Not sure what skills or tech you need for your dream field? Just choose your target career, and we’ll show you the tools and skills you need to rock it.</p>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="section-overlay"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/custom.js"></script>
+
+</div>
