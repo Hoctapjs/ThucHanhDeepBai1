@@ -1,0 +1,95 @@
+﻿@model TH_Deeplearning.Models.JobViewModel
+
+@{
+    ViewBag.Title = "Tech & Skills for Careers Suggestion";
+}
+
+<div style=" display: flex; flex-direction: column; height: 100vh;">
+    <section class="hero-section d-flex justify-content-center" style="padding-top: 20px; padding-bottom: 100px;">
+        <div class="row">
+                <a class="back-icon" href="@Url.Action("Home", "Home")"><i class="fas fa-long-arrow-alt-left"></i></a>
+
+                <h1 class="text-white text-center">TECH & SKILLS FOR CAREERS SUGESSTION</h1>
+            <div class="col-8 mx-auto mb-3 mt-5">
+                <h6 style="text-align: center; color: white; ">Input or choose your target career to explore essential skills, technologies, and potential learning paths.</h6>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center gap-lg-5">
+                    <div class="col-lg-5 col-11 mb-lg-0">
+                        @using (Html.BeginForm("SuggestTech_Skills", "Home", FormMethod.Post, new { @class = "custom-form mt-4 pt-2 mb-lg-0 mb-5", @role = "search", @autocomplete = "off" }))
+                        {
+                            <div class="input-group input-group-lg" style="border-radius: 5px">
+                                <span class="input-group-text bi-search" id="basic-addon1" style="font-size: 20px !important; margin-right: 5px;"></span>
+                                @Html.TextBoxFor(m => m.SearchKeyword, new { @type = "search", @class = "form-control", @id = "SearchKeyword", @placeholder = "Your target career", @aria_label = "Search" })
+                                @Html.ValidationMessageFor(m => m.SearchKeyword, "", new { @class = "text-danger" })
+
+                                <button type="submit" class="form-control" style="border-radius: 5px !important">Search</button>
+                            </div>
+                        }
+                    </div>
+
+                    <div class="col-lg-5 col-11">
+                        <div class="">
+                            @using (Html.BeginForm("SuggestTech_Skills", "Home", FormMethod.Post, new { @class = "mb-3" }))
+                            {
+                                <div class="row mt-4 pt-2 mb-lg-0 mb-5">
+                                    <div class="input-group" style="margin-left: 7px; width: 98%; height: 52px; border-radius: 5px;">
+                                        <span class="input-group-text" style="background: #fff; border-right: 0;">
+                                            <i class="fas fa-caret-down" style="font-size: 20px; margin-right: 5px;"></i>
+                                        </span>
+                                        @Html.DropDownListFor(m => m.SelectedJob, new SelectList(Model.AvailableJobs), new { @class = "form-control mb-0 select-dropdown h-100", @id = "jobDropdown" })
+                                        @Html.ValidationMessageFor(m => m.SelectedJob, "", new { @class = "text-danger" })
+
+                                        <button type="submit" class="form-control btn-dropdown" style="border-radius: 5px !important; margin-left: 5px;">Search</button>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @if (!string.IsNullOrEmpty(ViewBag.SelectedJob) || ViewBag.SearchResult != null)
+    {
+        <section class="featured-section">
+            <div class="container" style="position: relative; bottom: 30px">
+                <div class="justify-content-center">
+
+                    <div class="mb-4 mb-lg-0">
+                        <div class="custom-block bg-white shadow-lg">
+                            <p>Dữ liệu</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    }
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var dropdown = document.getElementById('jobDropdown');
+
+        if (!dropdown.querySelector('option[value=""]')) {
+            var placeholderOption = document.createElement('option');
+            placeholderOption.value = "";
+            placeholderOption.text = "Choose a career";
+            placeholderOption.disabled = true;
+            dropdown.insertBefore(placeholderOption, dropdown.firstChild);
+        }
+
+        var selectedJob = '@Model.SelectedJob';
+
+        if (!selectedJob || selectedJob === "") {
+            dropdown.value = ""; 
+        } else {
+            var selectedOption = dropdown.querySelector(`option[value="${selectedJob}"]`);
+            if (selectedOption) {
+                selectedOption.selected = true;
+            }
+        }
+    });
+</script>

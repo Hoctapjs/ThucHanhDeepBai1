@@ -1,0 +1,99 @@
+﻿
+@{
+    ViewBag.Title = "Skill-Based Career Suggestions";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div style=" display: flex; flex-direction: column; height: 100vh;">
+    <section class="hero-section d-flex justify-content-center align-items-center" style="padding-top: 20px; padding-bottom: 100px;">
+        <div class="row">
+            <a class="back-icon" href="@Url.Action("Home", "Home")"><i class="fas fa-long-arrow-alt-left"></i></a>
+            <h1 class="text-white text-center">SKILL-BASED CAREER SUGGESTIONS</h1>
+            <div class="col-8 mx-auto mb-3 mt-5">
+                <h6 style="text-align: center; color: white; ">Input your current field of study or what you're good at, we will analyze them to provide diverse and relevant career suggestions.</h6>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center mt-3">
+                    <div class="col-lg-6 col-9">
+                        @using (Html.BeginForm("SuggestCareer", "Home", FormMethod.Post, new { @class = "custom-form", @role = "search", @autocomplete = "off" }))
+                        {
+                            <div class="input-group input-group-lg" style="border-radius: 5px">
+                                <span class="input-group-text bi-search" id="basic-addon1" style="font-size: 20px !important; margin-right: 5px;"></span>
+                                <input name="SearchKeyword" type="search" class="form-control" id="SearchKeyword" placeholder="Your study field,..." aria-label="Search" value="@ViewBag.SearchResult">
+                                <button type="submit" class="form-control" style="border-radius: 5px !important">Search</button>
+                            </div>
+                        }
+                    </div>
+                    <div class="col-1">
+                        <button class="show-modal-btn" onclick="openModal()">
+                            <span style="margin-right: 8px;"><i class="fas fa-sort"></i></span>
+                            Show ...
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    @if (!string.IsNullOrEmpty(ViewBag.SelectedJob) || ViewBag.SearchResult != null)
+    {
+        <section class="featured-section">
+            <div class="container" style="position: relative; bottom: 30px">
+                <div class="justify-content-center">
+
+                    <div class="mb-4 mb-lg-0">
+                        <div class="custom-block bg-white shadow-lg">
+                            <p>Dữ liệu</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    }
+
+    <div class="modal" id="skillsModal">
+        <div class="modal-content">
+            @*<button class="close-btn" onclick="closeModal()">x</button>*@
+
+            <h2>Skills</h2>
+            <ul>
+                <li>Python, JavaScript, C#</li>
+                <li>HTML, CSS, React, ASP.NET MVC</li>
+                <li>SQL Server, MySQL, MongoDB</li>
+                <li>Git, Docker, Visual Studio Code</li>
+                <li>Problem Solving, Teamwork, Communication</li>
+            </ul>
+
+            <h2>Technologies</h2>
+            <ul>
+                <li>Python, JavaScript, C#</li>
+                <li>HTML, CSS, React, ASP.NET MVC</li>
+                <li>SQL Server, MySQL, MongoDB</li>
+                <li>Git, Docker, Visual Studio Code</li>
+                <li>Problem Solving, Teamwork, Communication</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    var modal = document.getElementById('skillsModal');
+
+    function openModal() {
+        modal.style.display = 'flex';
+    }
+
+    function closeModal() {
+        modal.style.display = 'none';
+    }
+
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    }
+</script>
