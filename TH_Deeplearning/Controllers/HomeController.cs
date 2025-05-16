@@ -1,16 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+using System.Configuration;
+using System.Net.Http;
+using System.Text;
 using System.Web.Mvc;
 using TH_Deeplearning.Models;
-using System.IO;
-using System.Reflection;
+using Newtonsoft.Json;
 
 namespace TH_Deeplearning.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly string apiUrl = ConfigurationManager.AppSettings["ApiUrl"];
 
         public ActionResult Home()
         {
@@ -52,7 +53,7 @@ namespace TH_Deeplearning.Controllers
             {
                 AvailableJobs = availableJobs,
                 SelectedJob = null,
-                SearchKeyword = "" 
+                SearchKeyword = ""
             };
 
             return View(model);
@@ -97,21 +98,54 @@ namespace TH_Deeplearning.Controllers
         [HttpGet]
         public ActionResult SuggestCareer()
         {
-            return View();
+            return View(new JobSuggestion());
         }
 
         [HttpPost]
         public ActionResult SuggestCareer(string SearchKeyword)
         {
-            if (!string.IsNullOrEmpty(SearchKeyword))
+            if (string.IsNullOrEmpty(SearchKeyword))
             {
-                ViewBag.SearchResult = SearchKeyword;
+                ViewBag.ErrorMessage = "Vui lòng nhập từ khóa tìm kiếm.";
+                return View(new JobSuggestion());
             }
-            else
+
+            using (var client = new HttpClient())
             {
-                ViewBag.SearchResult = null;
+                try
+                {
+                    // Chuẩn bị payload cho API Flask
+                    var payload = new { prompt = SearchKeyword };
+                    var content = new StringContent(
+                        JsonConvert.SerializeObject(payload),
+                        Encoding.UTF8,
+                        "application/json"
+                    );
+
+                    // Gửi yêu cầu POST tới API Flask
+                    HttpResponseMessage response = client.PostAsync(apiUrl, content).Result;
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string jsonResponse = response.Content.ReadAsStringAsync().Result;
+                        var jobSuggestion = JsonConvert.DeserializeObject<JobSuggestion>(jsonResponse);
+
+                        // Truyền dữ liệu tới View
+                        ViewBag.SearchResult = SearchKeyword;
+                        return View(jobSuggestion);
+                    }
+                    else
+                    {
+                        ViewBag.ErrorMessage = $"Lỗi: {response.ReasonPhrase}";
+                        return View(new JobSuggestion());
+                    }
+                }
+                catch (Exception ex)
+                {
+                    ViewBag.ErrorMessage = $"Lỗi: {ex.Message}";
+                    return View(new JobSuggestion());
+                }
             }
-            return View();
         }
     }
 }
