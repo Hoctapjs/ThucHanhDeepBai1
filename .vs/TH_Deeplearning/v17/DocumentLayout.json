@@ -1,49 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\",
+  "WorkspaceRootPath": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\th_deeplearning\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|solutionrelative:th_deeplearning\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|d:\\download internet\\pull thuc_hanh_deep 2205 kien\\clone master\\thuchanhdeepbai1\\th_deeplearning\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|solutionrelative:th_deeplearning\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\th_deeplearning\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|solutionrelative:th_deeplearning\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\th_deeplearning\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|solutionrelative:th_deeplearning\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|d:\\download internet\\pull thuc_hanh_deep 2205 kien\\clone master\\thuchanhdeepbai1\\th_deeplearning\\models\\jobsuggestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|solutionrelative:th_deeplearning\\models\\jobsuggestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\th_deeplearning\\models\\jobtitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|solutionrelative:th_deeplearning\\models\\jobtitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\th_deeplearning\\views\\home\\suggestcareer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\th_deeplearning\\views\\home\\suggestcareer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|solutionrelative:th_deeplearning\\views\\home\\suggestcareer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\th_deeplearning\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|d:\\download internet\\pull th deep 2305 test pull\\thuchanhdeepbai1\\th_deeplearning\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|solutionrelative:th_deeplearning\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\th_deeplearning\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|solutionrelative:th_deeplearning\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\th_deeplearning\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|solutionrelative:th_deeplearning\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\th_deeplearning\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|solutionrelative:th_deeplearning\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\th_deeplearning\\models\\jobsuggestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|solutionrelative:th_deeplearning\\models\\jobsuggestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\th_deeplearning\\models\\jobtitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|solutionrelative:th_deeplearning\\models\\jobtitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\th_deeplearning\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|solutionrelative:th_deeplearning\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\th_deeplearning\\views\\home\\suggesttech_skills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\th_deeplearning\\views\\home\\suggesttech_skills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|solutionrelative:th_deeplearning\\views\\home\\suggesttech_skills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\th_deeplearning\\content\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\th_deeplearning\\content\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|solutionrelative:th_deeplearning\\content\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\th_deeplearning\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\th_deeplearning\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|solutionrelative:th_deeplearning\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,37 +62,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "packages.config",
-              "DocumentMoniker": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\TH_Deeplearning\\packages.config",
-              "RelativeDocumentMoniker": "TH_Deeplearning\\packages.config",
-              "ToolTip": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\TH_Deeplearning\\packages.config",
-              "RelativeToolTip": "TH_Deeplearning\\packages.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-22T08:35:13.13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "JobSuggestion.cs",
-              "DocumentMoniker": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\TH_Deeplearning\\Models\\JobSuggestion.cs",
+              "DocumentMoniker": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\TH_Deeplearning\\Models\\JobSuggestion.cs",
               "RelativeDocumentMoniker": "TH_Deeplearning\\Models\\JobSuggestion.cs",
-              "ToolTip": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\TH_Deeplearning\\Models\\JobSuggestion.cs",
+              "ToolTip": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\TH_Deeplearning\\Models\\JobSuggestion.cs",
               "RelativeToolTip": "TH_Deeplearning\\Models\\JobSuggestion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T12:49:03.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T12:49:03.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "JobTitle.cs",
-              "DocumentMoniker": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\TH_Deeplearning\\Models\\JobTitle.cs",
+              "DocumentMoniker": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\TH_Deeplearning\\Models\\JobTitle.cs",
               "RelativeDocumentMoniker": "TH_Deeplearning\\Models\\JobTitle.cs",
-              "ToolTip": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\TH_Deeplearning\\Models\\JobTitle.cs",
+              "ToolTip": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\TH_Deeplearning\\Models\\JobTitle.cs",
               "RelativeToolTip": "TH_Deeplearning\\Models\\JobTitle.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -100,37 +86,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Web.config",
-              "DocumentMoniker": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\TH_Deeplearning\\Web.config",
+              "DocumentMoniker": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\TH_Deeplearning\\Web.config",
               "RelativeDocumentMoniker": "TH_Deeplearning\\Web.config",
-              "ToolTip": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\TH_Deeplearning\\Web.config",
+              "ToolTip": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\TH_Deeplearning\\Web.config",
               "RelativeToolTip": "TH_Deeplearning\\Web.config",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-05-16T12:42:22.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RouteConfig.cs",
-              "DocumentMoniker": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\TH_Deeplearning\\App_Start\\RouteConfig.cs",
+              "DocumentMoniker": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\TH_Deeplearning\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "TH_Deeplearning\\App_Start\\RouteConfig.cs",
-              "ToolTip": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\TH_Deeplearning\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\TH_Deeplearning\\App_Start\\RouteConfig.cs",
               "RelativeToolTip": "TH_Deeplearning\\App_Start\\RouteConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T12:40:20.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T12:40:20.696Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\TH_Deeplearning\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\TH_Deeplearning\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "TH_Deeplearning\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\TH_Deeplearning\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\TH_Deeplearning\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "TH_Deeplearning\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -138,24 +123,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\TH_Deeplearning\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\TH_Deeplearning\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "TH_Deeplearning\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\TH_Deeplearning\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\TH_Deeplearning\\Controllers\\HomeController.cs",
               "RelativeToolTip": "TH_Deeplearning\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAIwAAAAAAAAAAAAswJUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T12:40:20.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T12:40:20.758Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "custom.css",
-              "DocumentMoniker": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\TH_Deeplearning\\Content\\css\\custom.css",
+              "DocumentMoniker": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\TH_Deeplearning\\Content\\css\\custom.css",
               "RelativeDocumentMoniker": "TH_Deeplearning\\Content\\css\\custom.css",
-              "ToolTip": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\TH_Deeplearning\\Content\\css\\custom.css",
+              "ToolTip": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\TH_Deeplearning\\Content\\css\\custom.css",
               "RelativeToolTip": "TH_Deeplearning\\Content\\css\\custom.css",
               "ViewState": "AQIAAAgBAAAAAAAAAAAAAB8BAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -163,11 +147,36 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SuggestCareer.cshtml",
+              "DocumentMoniker": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\TH_Deeplearning\\Views\\Home\\SuggestCareer.cshtml",
+              "RelativeDocumentMoniker": "TH_Deeplearning\\Views\\Home\\SuggestCareer.cshtml",
+              "ToolTip": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\TH_Deeplearning\\Views\\Home\\SuggestCareer.cshtml",
+              "RelativeToolTip": "TH_Deeplearning\\Views\\Home\\SuggestCareer.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEMAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T12:40:23.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\TH_Deeplearning\\packages.config",
+              "RelativeDocumentMoniker": "TH_Deeplearning\\packages.config",
+              "ToolTip": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\TH_Deeplearning\\packages.config",
+              "RelativeToolTip": "TH_Deeplearning\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-22T08:35:13.13Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
               "Title": "SuggestTech_Skills.cshtml",
-              "DocumentMoniker": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\TH_Deeplearning\\Views\\Home\\SuggestTech_Skills.cshtml",
+              "DocumentMoniker": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\TH_Deeplearning\\Views\\Home\\SuggestTech_Skills.cshtml",
               "RelativeDocumentMoniker": "TH_Deeplearning\\Views\\Home\\SuggestTech_Skills.cshtml",
-              "ToolTip": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\TH_Deeplearning\\Views\\Home\\SuggestTech_Skills.cshtml",
+              "ToolTip": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\TH_Deeplearning\\Views\\Home\\SuggestTech_Skills.cshtml",
               "RelativeToolTip": "TH_Deeplearning\\Views\\Home\\SuggestTech_Skills.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
@@ -177,25 +186,13 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Home.cshtml",
-              "DocumentMoniker": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\TH_Deeplearning\\Views\\Home\\Home.cshtml",
+              "DocumentMoniker": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\TH_Deeplearning\\Views\\Home\\Home.cshtml",
               "RelativeDocumentMoniker": "TH_Deeplearning\\Views\\Home\\Home.cshtml",
-              "ToolTip": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\TH_Deeplearning\\Views\\Home\\Home.cshtml",
+              "ToolTip": "D:\\download Internet\\pull th deep 2305 test pull\\ThucHanhDeepBai1\\TH_Deeplearning\\Views\\Home\\Home.cshtml",
               "RelativeToolTip": "TH_Deeplearning\\Views\\Home\\Home.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-16T12:40:20.758Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SuggestCareer.cshtml",
-              "DocumentMoniker": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\TH_Deeplearning\\Views\\Home\\SuggestCareer.cshtml",
-              "RelativeDocumentMoniker": "TH_Deeplearning\\Views\\Home\\SuggestCareer.cshtml",
-              "ToolTip": "D:\\download Internet\\pull thuc_hanh_deep 2205 kien\\clone master\\ThucHanhDeepBai1\\TH_Deeplearning\\Views\\Home\\SuggestCareer.cshtml",
-              "RelativeToolTip": "TH_Deeplearning\\Views\\Home\\SuggestCareer.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAD8AAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-16T12:40:23.097Z"
             }
           ]
         }
