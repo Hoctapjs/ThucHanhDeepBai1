@@ -4,12 +4,112 @@
     ViewBag.Title = "Tech & Skills for Careers Suggestion";
 }
 
-<div style=" display: flex; flex-direction: column; height: 100vh;">
-    <section class="hero-section d-flex justify-content-center" style="padding-top: 20px; padding-bottom: 100px;">
-        <div class="row">
-                <a class="back-icon" href="@Url.Action("Home", "Home")"><i class="fas fa-long-arrow-alt-left"></i></a>
+<style>
+    /* Cố định hero-section và đảm bảo chiều cao */
+    .hero-section {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+        min-height: 200px; /* Đảm bảo chiều cao tối thiểu */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
 
-                <h1 class="text-white text-center">TECH & SKILLS FOR CAREERS SUGESSTION</h1>
+    /* Đảm bảo nội dung bên dưới không bị che */
+    body {
+        padding-top: 220px; /* Khoảng cách để nội dung không bị che bởi hero-section */
+    }
+
+    .custom-block {
+        margin-top: 164px !important;
+        border-radius: 15px;
+        background: linear-gradient(145deg, #ffffff, #f1f3f5);
+        max-height: 600px;
+        overflow-y: auto;
+        margin-top: 20px; /* Giảm margin-top vì hero-section đã cố định */
+    }
+
+    .right-pane {
+        padding: 2rem;
+        min-height: 400px;
+        background-color: #f8fafc;
+        border-radius: 10px;
+        overflow-y: auto;
+    }
+
+    .result-box {
+        white-space: normal;
+        word-wrap: break-word;
+        background: #ffffff;
+        border: 1px solid #e0e7ff;
+        border-radius: 8px;
+        padding: 1.5rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        margin-bottom: 1rem;
+    }
+
+        .result-box:hover {
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+        }
+
+    #reference {
+        border-left: 5px solid #0d6efd;
+        background-color: #f0f7ff;
+    }
+
+    .result-box * {
+        line-height: 1.6;
+        font-size: 16px;
+    }
+
+    /* CSS cho modal */
+    .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-content {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 500px;
+        max-height: 80vh;
+        overflow-y: auto;
+    }
+
+    /* Đảm bảo nội dung bên trong hero-section có kích thước hợp lý */
+    .hero-section h1 {
+        margin-bottom: 20px;
+    }
+
+    .hero-section h6 {
+        margin-bottom: 20px;
+    }
+
+    .hero-section .container {
+        width: 100%;
+    }
+</style>
+
+<div style=" display: flex; flex-direction: column; height: 100vh;">
+    <section class="hero-section d-flex justify-content-center" style="padding: 40px 20px">
+        <div class="row">
+            <a class="back-icon" href="@Url.Action("Home", "Home")"><i class="fas fa-long-arrow-alt-left"></i></a>
+
+            <h1 class="text-white text-center">TECH & SKILLS FOR CAREERS SUGESSTION</h1>
             <div class="col-8 mx-auto mb-3 mt-5">
                 <h6 style="text-align: center; color: white; ">Input or choose your target career to explore essential skills, technologies, and potential learning paths.</h6>
             </div>
@@ -53,16 +153,22 @@
 
     @if (!string.IsNullOrEmpty(ViewBag.SelectedJob) || ViewBag.SearchResult != null)
     {
-        <section class="featured-section">
-            <div class="container" style="position: relative; bottom: 30px">
+        <section class="featured-section" style=" position: relative; top: 10%;">
+            <div class="container">
                 <div class="justify-content-center">
-
                     <div class="mb-4 mb-lg-0">
-                        <div class="custom-block bg-white shadow-lg">
-                            <p>Dữ liệu</p>
+                        <div class="custom-block bg-white shadow-lg p-4">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <!-- Chỉ giữ cột bên phải -->
+                                    <div class="col-12 right-pane">
+                                        <div id="result" class="result-box mb-3" style="margin-top:100px"></div>
+                                        <div id="reference" class="result-box"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -72,6 +178,9 @@
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         var dropdown = document.getElementById('jobDropdown');
+        var searchInput = document.getElementById('SearchKeyword');
+        var inputForm = searchInput.closest('form');
+        var dropdownForm = dropdown.closest('form');
 
         if (!dropdown.querySelector('option[value=""]')) {
             var placeholderOption = document.createElement('option');
@@ -84,12 +193,88 @@
         var selectedJob = '@Model.SelectedJob';
 
         if (!selectedJob || selectedJob === "") {
-            dropdown.value = ""; 
+            dropdown.value = "";
         } else {
             var selectedOption = dropdown.querySelector(`option[value="${selectedJob}"]`);
             if (selectedOption) {
                 selectedOption.selected = true;
             }
         }
+
+
+
+        // Kiểm tra rỗng cho form chứa input
+        inputForm.addEventListener('submit', function (event) {
+            if (!searchInput.value.trim() && (!dropdown.value || dropdown.value === "")) {
+                event.preventDefault();
+                alert("Vui lòng nhập hoặc chọn một công việc!");
+            }
+        });
+
+        // Kiểm tra rỗng cho form chứa dropdown
+        dropdownForm.addEventListener('submit', function (event) {
+            if (!dropdown.value || dropdown.value === "") {
+                event.preventDefault();
+                alert("Vui lòng chọn một công việc!");
+            }
+        });
     });
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        var dropdown = document.getElementById('jobDropdown');
+        var searchInput = document.getElementById('SearchKeyword');
+
+        // các dropdown (select á) mình chọn mà thay đổi thì nó sẽ gán cho input
+        dropdown.addEventListener('change', () => {
+            searchInput.value = dropdown.value;
+        })
+    })
+</script>
+
+<!-- Đảm bảo thư viện marked được bao gồm -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+    // Hàm gọi API
+    async function fetchCareerSuggestions(prompt) {
+        const resultBox = document.getElementById("result");
+        const referenceBox = document.getElementById("reference");
+
+        resultBox.classList.remove("d-none");
+        referenceBox.classList.add("d-none");
+        resultBox.innerHTML = "<em>Đang xử lý...</em>";
+
+        try {
+            const res = await fetch("https://chatbotcarrier-10d584603737.herokuapp.com/suggest", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ prompt })
+            });
+
+            const data = await res.json();
+            resultBox.innerHTML = marked.parse(data.response);
+
+            if (data.reference) {
+                referenceBox.classList.remove("d-none");
+                referenceBox.innerHTML = `
+                    <p><strong>📘 Một công việc đã tham khảo:</strong></p>
+                    <p><strong>${data.reference.title}</strong></p>
+                    <p>${data.reference.description}</p>
+                `;
+            }
+        } catch (err) {
+            resultBox.innerText = "Lỗi khi gọi API: " + err.message;
+        }
+    }
+
+    // Tự động gọi API nếu ViewBag.SearchResult không rỗng
+    window.onload = function () {
+        const initialPrompt = "@ViewBag.SearchResult";
+        if (initialPrompt && initialPrompt.trim() !== "") {
+            fetchCareerSuggestions(initialPrompt);
+        }
+    };
 </script>
