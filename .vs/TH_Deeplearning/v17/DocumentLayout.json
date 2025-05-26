@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\HocTap\\TH_Deeplearning\\ThucHanhDeepBai1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|d:\\hoctap\\th_deeplearning\\thuchanhdeepbai1\\th_deeplearning\\views\\home\\suggestcareer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|d:\\hoctap\\th_deeplearning\\thuchanhdeepbai1\\th_deeplearning\\views\\home\\suggesttech_skills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|solutionrelative:th_deeplearning\\views\\home\\suggesttech_skills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\HocTap\\TH_Deeplearning\\ThucHanhDeepBai1\\th_deeplearning\\views\\home\\suggestcareer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|solutionrelative:th_deeplearning\\views\\home\\suggestcareer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\HocTap\\TH_Deeplearning\\ThucHanhDeepBai1\\th_deeplearning\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|solutionrelative:th_deeplearning\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\HocTap\\TH_Deeplearning\\ThucHanhDeepBai1\\th_deeplearning\\views\\home\\suggesttech_skills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|solutionrelative:th_deeplearning\\views\\home\\suggesttech_skills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B16B7BA-05E8-4F9E-A991-8B7179493E6F}|TH_Deeplearning\\TH_Deeplearning.csproj|D:\\HocTap\\TH_Deeplearning\\ThucHanhDeepBai1\\th_deeplearning\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,8 +54,7 @@
               "RelativeToolTip": "TH_Deeplearning\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-21T10:52:04.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T10:52:04.638Z"
             },
             {
               "$type": "Document",
@@ -83,39 +82,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "SuggestTech_Skills.cshtml",
               "DocumentMoniker": "D:\\HocTap\\TH_Deeplearning\\ThucHanhDeepBai1\\TH_Deeplearning\\Views\\Home\\SuggestTech_Skills.cshtml",
               "RelativeDocumentMoniker": "TH_Deeplearning\\Views\\Home\\SuggestTech_Skills.cshtml",
               "ToolTip": "D:\\HocTap\\TH_Deeplearning\\ThucHanhDeepBai1\\TH_Deeplearning\\Views\\Home\\SuggestTech_Skills.cshtml",
               "RelativeToolTip": "TH_Deeplearning\\Views\\Home\\SuggestTech_Skills.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "ViewState": "AQIAAOYAAAAAAAAAAAAAAOwAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-21T10:52:04.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Home.cshtml",
               "DocumentMoniker": "D:\\HocTap\\TH_Deeplearning\\ThucHanhDeepBai1\\TH_Deeplearning\\Views\\Home\\Home.cshtml",
               "RelativeDocumentMoniker": "TH_Deeplearning\\Views\\Home\\Home.cshtml",
               "ToolTip": "D:\\HocTap\\TH_Deeplearning\\ThucHanhDeepBai1\\TH_Deeplearning\\Views\\Home\\Home.cshtml",
               "RelativeToolTip": "TH_Deeplearning\\Views\\Home\\Home.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACkAAABtAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAGBnwCkAAABtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-21T10:52:04.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T10:52:04.64Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SuggestCareer.cshtml",
               "DocumentMoniker": "D:\\HocTap\\TH_Deeplearning\\ThucHanhDeepBai1\\TH_Deeplearning\\Views\\Home\\SuggestCareer.cshtml",
               "RelativeDocumentMoniker": "TH_Deeplearning\\Views\\Home\\SuggestCareer.cshtml",
               "ToolTip": "D:\\HocTap\\TH_Deeplearning\\ThucHanhDeepBai1\\TH_Deeplearning\\Views\\Home\\SuggestCareer.cshtml",
               "RelativeToolTip": "TH_Deeplearning\\Views\\Home\\SuggestCareer.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAAkAAAA",
+              "ViewState": "AQIAAMYAAAAAAAAAAAAAANYAAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-21T10:52:04.922Z",
               "EditorCaption": ""
